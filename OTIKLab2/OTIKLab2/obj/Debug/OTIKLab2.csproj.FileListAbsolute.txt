@@ -1,0 +1,7 @@
+C:\Users\Acer\source\repos\OTIKLab2\OTIKLab2\bin\Debug\OTIKLab2.exe.config
+C:\Users\Acer\source\repos\OTIKLab2\OTIKLab2\bin\Debug\OTIKLab2.exe
+C:\Users\Acer\source\repos\OTIKLab2\OTIKLab2\bin\Debug\OTIKLab2.pdb
+C:\Users\Acer\source\repos\OTIKLab2\OTIKLab2\obj\Debug\OTIKLab2.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\OTIKLab2\OTIKLab2\obj\Debug\OTIKLab2.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\OTIKLab2\OTIKLab2\obj\Debug\OTIKLab2.exe
+C:\Users\Acer\source\repos\OTIKLab2\OTIKLab2\obj\Debug\OTIKLab2.pdb
