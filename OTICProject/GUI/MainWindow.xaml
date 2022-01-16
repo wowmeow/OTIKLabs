@@ -1,0 +1,34 @@
+﻿<Window x:Class="ProjectGui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectGui"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btn_arch_dir" HorizontalAlignment="Left" Margin="150,30,0,0" VerticalAlignment="Top" Width="90" Height="90" Click="ClickDirArchiving" Background="AliceBlue">
+            <Image Source="images/dir-archiv.png" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Button>
+        <Button x:Name="btn_arch_file" HorizontalAlignment="Left" Margin="40,30,0,0" Width="90" Click="ClickFileArchiving" VerticalAlignment="Top" Background="AliceBlue" Height="90">
+            <Image Source="images/file-archiv.png" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Button>
+        <Label x:Name="l_error" Content="" HorizontalAlignment="Left" Margin="0,144,0,0"  VerticalAlignment="Top" Width="350" HorizontalContentAlignment="Center" Height="26"/>
+        <Label x:Name="l_inf" Content="" HorizontalAlignment="Left" Margin="2,170,0,0"  VerticalAlignment="Top" Width="350" HorizontalContentAlignment="Center" Height="26" />
+        <Button HorizontalAlignment="Left" Margin="260,30,0,0" VerticalAlignment="Top" Width="90" Height="90" Click="ClickDearchiving" Background="AliceBlue">
+            <Image Source="images/open-archiv.png" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        </Button>
+        <Label Content="Выбор кодирования" HorizontalAlignment="Left" Margin="405,19,0,0" VerticalAlignment="Top" Height="26" Width="123"/>
+        <CheckBox Content="q кодирование" HorizontalAlignment="Left" Margin="410,59,0,0" VerticalAlignment="Top" Width="123" Checked="CheckBoxChangedTrue" Unchecked="CheckBoxChangedFalse" Height="15"/>
+        <CheckBox Content="Шеннон-Фано" HorizontalAlignment="Left" Margin="410,82,0,0" VerticalAlignment="Top" Width="128" Checked="CheckBoxChangedTrue" Unchecked="CheckBoxChangedFalse" Height="15"/>
+        <CheckBox Content="Арифметичский" HorizontalAlignment="Left" Margin="410,107,0,0" VerticalAlignment="Top" Width="136" Checked="CheckBoxChangedTrue" Unchecked="CheckBoxChangedFalse" Height="15"/>
+        <CheckBox Content="RLE" HorizontalAlignment="Left" Margin="410,130,0,0" VerticalAlignment="Top" Width="136" Checked="CheckBoxChangedTrue" Unchecked="CheckBoxChangedFalse" Height="15"/>
+        <TextBox x:Name="txtCoders" HorizontalAlignment="Left" Margin="410,189,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Height="126"/>
+        <CheckBox Content="Hamming" HorizontalAlignment="Left" Margin="410,155,0,0" VerticalAlignment="Top" Width="136" Checked="CheckBoxChangedTrue" Unchecked="CheckBoxChangedFalse" Height="15"/>
+    </Grid>
+</Window>
+    

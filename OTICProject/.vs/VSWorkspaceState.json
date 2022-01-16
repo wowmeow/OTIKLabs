@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GUI",
+    "\\GUI\\obj\\Debug",
+    "\\GUI\\obj\\Debug\\net5.0-windows",
+    "\\Project",
+    "\\Project\\bin\\Release",
+    "\\Project\\bin\\Release\\net5.0",
+    "\\Project\\bin\\Release\\net5.0\\ref",
+    "\\Test",
+    "\\Test\\bin",
+    "\\Test\\obj"
+  ],
+  "SelectedNode": "\\GUI\\MainWindow.xaml.cs",
+  "PreviewInSolutionExplorer": false
+}
